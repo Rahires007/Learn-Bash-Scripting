@@ -61,3 +61,31 @@ Function name() ---Declaration
 Lines of code
 }
 Function name value or parameters---calling
+
+passing parameter un function
+functionname()
+{
+local varname=$1
+}
+functionname var or value
+
+👉OPERATORS
+
+Arithmetic Operators
++ addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulus
+
+Relational Operators
+-lt less than
+-gt greater than
+-le less than equal to
+-ge greater than equal to
+-eq equal to 
+== equal to equal to
+
+
+
+
