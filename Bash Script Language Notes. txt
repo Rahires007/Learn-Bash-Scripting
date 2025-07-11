@@ -1,0 +1,63 @@
+👉👿🖥BASH SCRIPTING 
+👉BASIC SYNTAX
+#! /bin/bash 
+#comments
+Lines of codes
+
+👉INPUT AND OUTPUT
+echo "Output statement"
+
+read varname ---Input from user
+
+read -p "Enter string input" Varname
+
+👉VARIABLES
+Name of memory locatio  where store some data
+
+Varname=value ---variable type according to stored value in it 
+
+👉CONDITIONAL STATEMENT S
+
+IF statement
+if [ $varname operator value ];
+then 
+Line of true block code
+fi
+
+IF else statement
+if [ $varname operator value ];
+then 
+Line of true block code 
+else 
+Line of false block code
+fi
+
+IF else IF statement
+if [ $varname operatot value ];
+then 
+Line of true block code 
+elif [ $varname Opearator value ];
+then 
+Line of true block code of condition 2
+else
+Line of false block code 
+fi
+
+👉LOOPING STATEMENTS
+
+for variable in{Start.. End};
+do
+Lines of code
+done
+
+while [ $varname operator value ];
+do
+Lines of code 
+done
+
+👉FUNCTION
+Function name() ---Declaration
+{
+Lines of code
+}
+Function name value or parameters---calling
